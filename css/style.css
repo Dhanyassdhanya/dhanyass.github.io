@@ -1,0 +1,211 @@
+*
+{
+	box-sizing: border-box;
+	/*margin: 0px;
+	padding: 0px;*/
+}
+.navbar
+{
+	display: flex;
+	background-color: grey;
+	justify-content: center;
+	align-items: center;
+
+}
+.navbar ul
+{
+display: flex;
+margin: 20px 0px;
+}
+.navbar ul li
+{
+	font-size: 1rem;
+	font-family: century;
+	list-style: none;
+	margin-left: 20px;
+}
+.navbar ul li a
+{
+	
+	text-decoration: none;
+	color: black;
+
+}
+.navbar ul li a:hover
+{
+	background-color: white;
+	box-shadow: 0 0 12px white;
+
+}
+img
+{
+	border-radius:50%;
+	width: 200px;
+	margin: 20px;
+	outline: 2px solid white;
+}
+img:hover
+{
+	box-shadow: 0 0 12px white;
+}
+#home
+{
+	justify-content: center;
+	align-items: center;
+
+	display: flex;
+
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	height: 500px;
+	margin: 80px;
+}
+/*.main
+{
+	display: flex;
+}*/
+.heading
+{
+	font-size: 3rem;
+	text-align: center;
+	margin: 40px;
+}
+.btn
+{
+	padding: 10px 35px;
+	background-color: transparent;
+	color: white;
+	border:1px solid white;
+	margin: 40px;
+}
+.btn:hover
+{
+	background-color: white;
+	box-shadow: 0 0 12px white;
+	color: black;
+}
+#About
+{
+	/*display: flex;*/
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	
+}
+#intro
+{
+	text-align: justify;
+	padding: 20px;
+}
+.headings
+{
+	font-size: 4rem;
+	text-align: center;
+	margin: 40px;
+	font-family: century;
+}	
+#intro h2
+{
+	text-align: center;
+	font-size: 2rem;
+}
+
+.education h3
+{
+	text-align: center;
+	font-size: 2rem;
+	font-family: century;
+	/*border:1px solid white;
+	color: white;*/
+	margin: 10px;
+	padding: 10px;
+
+
+}
+/*.education h3:hover
+{
+	background-color: white;
+	box-shadow: 0 0 12px black;
+	color: black;
+}*/
+.educa
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	border: 5px solid;
+	margin: 100px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+	
+.education ul li
+{
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: century;
+	list-style: none;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	margin: 20px;
+	
+
+
+
+}
+.education ul li:hover
+{
+
+	border:1px solid;
+	box-shadow: 0 0 15px black;
+
+}
+h3
+{
+	font-size: 50px;
+	text-align: center;
+	font-family: verdana;
+}
+.skills
+{
+	display: flex;
+	border: 2px ridge;
+	text-align: center;
+	background-color: grey;
+	border-radius: 200px;
+	height: 200px;
+	padding: 30px;
+
+	
+}
+.box
+{
+	border: 2px solid;
+	border-radius: 80%;
+	margin-left: 200px;
+	height: 50px;
+	width: 40px;
+	padding: 50px;
+	color: black;
+	background-color: white;
+
+
+
+
+}
+.box:hover
+{
+	background-color: grey;
+	box-shadow: 0 0 12px black;
+	color: black;	
+}
+.Headings
+{
+	text-align: center;
+}
+.contact
+{
+	border: 2px solid;
+	width: 260px;
+	height: 200px;
+	margin-left:590px;
+	padding: 20px;
+}
